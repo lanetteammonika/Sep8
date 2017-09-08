@@ -1,0 +1,31 @@
+{
+  "name": "carddemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-preset-react-native": "2.1.0",
+    "gl-react": "^2.2.10",
+    "gl-react-native": "^2.47.0",
+    "react": "16.0.0-alpha.12",
+    "react-image-crop": "^2.0.8",
+    "react-native": "0.47.1",
+    "react-native-card-carousel": "^1.0.0",
+    "react-native-carousel": "^0.10.0",
+    "react-native-image-cropper": "^0.3.0",
+    "react-native-image-pan-zoom": "^2.0.6",
+    "react-native-perspective-image-cropper": "^0.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "3.0.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
